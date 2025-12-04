@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 609px;
+    display: flex;
+    margin: 0 auto;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 0px 20px 0px;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    text-align: center;
+}
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+    padding: 20px;
+}
+html, body {
+        margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+}
+        .table-container {
+            width: 100%;
+            max-width: 700px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .horarios-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        /* Estilo do cabeçalho (fundo escuro) */
+        .horarios-table thead th {
+            background-color: #343a40; /* Preto escuro/grafite */
+            color: white;
+            padding: 15px 10px;
+            font-weight: bold;
+            border: 1px solid #343a40;
+        }
+
+        /* Estilo das células do corpo (fundo claro) */
+        .horarios-table tbody td {
+            padding: 12px 10px;
+            color: #333;
+            border: 1px solid #dee2e6;
+            vertical-align: middle;
+        }
+
+        /* Linhas pares para melhor legibilidade (listrado) */
+        .horarios-table tbody tr:nth-child(even) {
+            background-color: #f8f9fa; /* Cinza bem claro */
+        }
+        
+        /* Efeito hover nas linhas */
+        .horarios-table tbody tr:hover {
+            background-color: #e9ecef;
+        }
+    </style>
+<head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <a href="inicio.html">Início</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="horario.html">Horário</a>
+                <a href="contato.html">Contato</a>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                Header
+                <img src="horario.jpg" width="380" height="190"alt="Imagem da Clínica"><!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                Content
+                 <div class="content">
+                <h2>Nossos Serviços e Preços</h2>
+                <p>
+                    A Clínica Sorridents oferece uma gama completa de serviços de saúde, desde a odontologia geral até especialidades como psicologia, pediatria e oftalmologia.
+                    Trabalhamos para garantir a melhor qualidade de atendimento, mantendo a transparência em nossos valores.
+                    <br>
+                    <strong>Abaixo, confira nossa tabela de preços e os dias de atendimento para planejar sua consulta.</strong>
+                    Os preços podem variar ligeiramente dependendo da complexidade do caso e dos profissionais envolvidos.
+                </p>
+
+                <div class="table-container">
+                    <table class="price-table">
+                    <table class="horarios-table">
+                        <thead>
+                            <tr>
+                                <th>Serviço</th>
+                                <th>Segunda a Sexta <br> 8:00 às 18:00</th>
+                                <th>Sábados 8:00 às 13:00</th>
+                                <th>Feriados 8:00 às 13:00</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Extração dentária</td>
+                                <td>R$ 150,00</td>
+                                <td>R$ 180,00</td>
+                                <td>R$ 250,00</td>
+                            </tr>
+                            <tr>
+                                <td>Endodontia</td>
+                                <td>R$ 180,00</td>
+                                <td>R$ 200,00</td>
+                                <td>R$ 280,00</td>
+                            </tr>
+                            <tr>
+                                <td>Aparelho ortodôntico</td>
+                                <td>R$ 160,00</td>
+                                <td>R$ 190,00</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>Clareamento dental</td>
+                                <td>R$ 220,00</td>
+                                <td>R$ 250,00</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>Emergência (Extra)</td>
+                                <td>R$ 300,00</td>
+                                <td>R$ 300,00</td>
+                                <td>R$ 400,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div><!-- Aqui vai o seu conteúdo -->
+            </div>
+    
+            <div class="footer">
+                Footer
+                <p>Clínica de Odontologia - Todos os direitos reservados.</p>
+                <p>Contato: (11) 91234-5678 | Email: contato@clinicasorridents.com.br</p>
+                <p>Endereço: Rua Exemplo, 123 - Bairro Exemplo - São Paulo, SP</p><!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
